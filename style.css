@@ -1,0 +1,275 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  color: #2d2b2b;
+  overflow-x: hidden;
+}
+
+/* Logo styles */
+
+.jumbotron{
+  background: no-repeat fixed url("img/background.png");
+  background-position: bottom;
+  min-height: 700px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  padding-top: 15%;
+  text-align: center;
+}
+
+.overlay{
+  background-color: #71c6c1;
+  opacity: 0.70;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 700px;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo{
+  position: relative;
+  z-index: 2;
+  width: 60%;
+  margin: auto;
+  color: #f2f2f2;
+}
+
+.logo h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 5rem;
+}
+
+.logo h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+/* Content styles */
+
+.content{
+  width: 100%;
+  background-color: #FFF;
+}
+
+.about{
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.about h1{
+  margin: 5% 0;
+  font-size: 4rem;
+  color: #71c6c1;
+}
+
+.subtitle{
+  font-size: 2.5rem;
+  color: #71c6c1;
+}
+
+.details{
+  text-align: left;
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.detailsinfo{
+  display: inline-block;
+  width: 60%;
+  color: ;
+  font-size: 1.5rem;
+  color: #cee8e2;
+}
+
+.about .row{
+  padding: 3% 5%;
+}
+
+.photo{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.photo:hover{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* Reviews */
+.reviews{
+  background: #9cf4df;
+  padding: 5% 10%;
+  color: #fff;
+  font-size: 20px;
+}
+
+.reviewslogo{
+  text-align: center;
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+}
+
+.stars{
+  color: #eee966;
+}
+
+.comment{
+  padding: 7% 15%;
+}
+
+.prof{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.reviews .col-lg-4{
+  text-align: center;
+  padding-top: 4%;
+}
+
+/* Websites */
+
+.websites{
+  padding: 5% 10%;
+}
+
+.websiteslogo{
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 4rem;
+}
+
+.websites .row{
+  margin: 5% 0;
+}
+
+.zoom{
+  transition-duration: 2s;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+
+.card{
+  position: relative;
+  z-index: 2;
+}
+
+.zoom:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  z-index: 0;
+}
+
+.btn-primary{
+  background-color:  #71c6c1;
+  border-color: #60c6c1;
+}
+
+.btn-primary:hover{
+  background-color: #70afac;
+  border-color: #669e9b;
+}
+
+/* Skills */
+.skills{
+  padding: 7% 10%;
+  text-align: center;
+  background-color: #60c6c1;
+  color: white;
+}
+
+.skills ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  width: 30%;
+  margin-right: 10%;
+}
+
+.skillogo{
+  margin-bottom: 5%;
+  font-size: 3rem;
+}
+
+ul li{
+  text-align: left;
+  margin-top: 2%;
+  padding: 5px;
+  transition: all 0.6s;
+}
+
+ul li:hover{
+  letter-spacing: 1px;
+  background-color: rgba(142, 229, 194, 0.6);
+}
+
+.stars{
+  text-align: right;
+  color: white;
+  float: right;
+}
+
+.gold{
+  color: #eee966;
+}
+
+.silver{
+  color: #b2b2b2;
+}
+
+/* Footer */
+.footer{
+  padding: 7% 15%;
+  background-color: #4f4f4f;
+  text-align: center;
+  color: #7c7c7c;
+}
+
+.footer p{
+  padding: 0;
+  margin: 0;
+}
+
+.socials{
+  text-align: center;
+  margin: auto;
+}
+
+.social{
+  display: inline-block;
+  margin: 1% 5% 0 5%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.social:hover{
+  cursor: pointer;
+}
+
+.fb:hover{
+  color: #3b5998;
+}
+
+.google:hover{
+  color: #d34836;
+}
+
+.twitter:hover{
+  color: #38A1F3;
+}
